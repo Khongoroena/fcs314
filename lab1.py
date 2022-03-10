@@ -30,3 +30,15 @@ if findPartion(arr, n) == True:
 	print("Can be divided into two subsets of equal sum")
 else:
 	print("Can not be divided into two subsets of equal sum")
+
+
+
+#adding new changes 
+def linear_search(haystack, needle):
+    for position, item in enumerate(haystack):
+        if item == needle:
+            return position
+    return -1
+
+
+print(linear_search([4, 5, 2, 7, 1, 8], 7))
